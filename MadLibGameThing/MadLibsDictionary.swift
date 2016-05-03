@@ -14,21 +14,45 @@ import GameKit
 struct MadLibDictionary {
     
     
-    let madlib1 = ["Your friend", // 0
+    let madlib1 = ["Name a place", // 0
                    
-                   "Name of friend", // 1
+                   "Type an adjective", // 1
                    
-                   "Is crying", // 2
+                   "Name your favorite female celebrity", // 2
                   
-                   "A stupid reason",   // 3
+                   "Name a body part",   // 3
                    
-                   "Because",   // 4
+                   "Name a different body part",   // 4
                    
-                   "A normal reason",   // 5
+                   "Name an organ in the human body",   // 5
                    
-                   "And this friend has to fart now",   // 6
+                   "Type an adjective",   // 6
                   
-                   "Secret about them"] // 7
+                   "Name a male celebrity", //7
+                   
+                   "Type an adjective", //8
+                   
+                   "Name yet another body part",    //9
+                   
+                   "Can you think of another body part to type?",   //10
+                   
+                   "Name a place",  //11
+                   
+                   "Name a male celebrity",  //12
+                   
+                   "Type an animal",    //13
+                   
+                   "Type a Verb",   //14
+                   
+                   "Type your favorite number", //15
+                   
+                   "Type another body part",    //16
+    
+                   "Type an adjective",     //17
+                   
+                   "Type another adjective",  //18
+                   
+                   "Type a past tense verb"]    //19
     
     
 
