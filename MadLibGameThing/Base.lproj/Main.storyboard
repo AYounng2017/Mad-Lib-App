@@ -31,16 +31,18 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgu-ck-xJC">
-                                <rect key="frame" x="19" y="281" width="48" height="30"/>
+                                <rect key="frame" x="15" y="281" width="48" height="30"/>
                                 <state key="normal" title="Cancel"/>
                                 <connections>
                                     <action selector="cancelButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xSO-5U-qKG"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name a place." lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYl-PB-y6T">
-                                <rect key="frame" x="19" y="157" width="561" height="17"/>
+                                <rect key="frame" x="16" y="28" width="280" height="17"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="561" id="Bbz-s2-Kf2"/>
+                                    <constraint firstAttribute="width" constant="280" id="Bbz-s2-Kf2"/>
+                                    <constraint firstAttribute="height" constant="17" id="m0G-he-8fG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="ysT-bb-LZ0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -49,15 +51,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="eYl-PB-y6T" firstAttribute="leading" secondItem="Wgu-ck-xJC" secondAttribute="leading" id="0Bc-cs-pef"/>
-                            <constraint firstItem="eYl-PB-y6T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="3" id="4qK-C4-Rzq"/>
-                            <constraint firstItem="eYl-PB-y6T" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="137" id="6ET-nL-zJr"/>
+                            <constraint firstItem="eYl-PB-y6T" firstAttribute="leading" secondItem="Wgu-ck-xJC" secondAttribute="leading" constant="1" id="0Bc-cs-pef"/>
+                            <constraint firstItem="eYl-PB-y6T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4qK-C4-Rzq"/>
+                            <constraint firstItem="eYl-PB-y6T" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="6ET-nL-zJr"/>
                             <constraint firstItem="Wgu-ck-xJC" firstAttribute="baseline" secondItem="mEN-E1-fNj" secondAttribute="baseline" id="CjN-HO-d9Z"/>
                             <constraint firstItem="Kvq-ZH-JMR" firstAttribute="trailing" secondItem="mEN-E1-fNj" secondAttribute="trailing" id="HWb-qM-A3y"/>
                             <constraint firstItem="Kvq-ZH-JMR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nxK-Rz-wmh"/>
                             <constraint firstItem="Wgu-ck-xJC" firstAttribute="top" secondItem="Kvq-ZH-JMR" secondAttribute="bottom" constant="6" id="oB5-W1-vKB"/>
                             <constraint firstItem="Kvq-ZH-JMR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="svX-hb-UI4"/>
-                            <constraint firstItem="Kvq-ZH-JMR" firstAttribute="top" secondItem="eYl-PB-y6T" secondAttribute="bottom" constant="71" id="uRv-sk-dm3"/>
+                            <constraint firstItem="Kvq-ZH-JMR" firstAttribute="top" secondItem="eYl-PB-y6T" secondAttribute="bottom" constant="200" id="uRv-sk-dm3"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
