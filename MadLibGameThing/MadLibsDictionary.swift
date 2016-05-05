@@ -55,7 +55,7 @@ struct MadLibDictionary {
                    "Type a past tense verb"]    //19
     
     
-
+var answers = [String]()
     
 }
 
@@ -75,7 +75,7 @@ struct MadLibQuestions {
 
 
 
-var answers = [String]()
+
 
     
     
