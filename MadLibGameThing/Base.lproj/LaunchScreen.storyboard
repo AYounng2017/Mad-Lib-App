@@ -16,12 +16,55 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ret-Rz-Ofg">
+                                <rect key="frame" x="164" y="177" width="272" height="245"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="245" id="1Xf-pc-l2z"/>
+                                    <constraint firstAttribute="width" constant="272" id="UXX-iZ-Ja0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHY-Da-MiQ">
+                                <rect key="frame" x="150" y="439" width="301" height="141"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="141" id="8OR-1T-RBW"/>
+                                    <constraint firstAttribute="width" constant="301" id="CWM-4n-wnF"/>
+                                    <constraint firstAttribute="height" constant="94" id="UyZ-6q-NGj"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="301" id="zhD-Rv-FBQ"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Copyright © 2016 Buster McThunderStick. All rights reserved.">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="8OR-1T-RBW"/>
+                                        <exclude reference="UyZ-6q-NGj"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IHY-Da-MiQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3bV-vM-vJX"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="IHY-Da-MiQ" secondAttribute="bottom" constant="20" id="5Bb-R3-edA"/>
+                            <constraint firstItem="Ret-Rz-Ofg" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="RaU-wL-ono"/>
+                            <constraint firstItem="IHY-Da-MiQ" firstAttribute="centerX" secondItem="Ret-Rz-Ofg" secondAttribute="centerX" id="ScX-dr-T8H"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="-278" y="172"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="search.png" width="176" height="176"/>
+    </resources>
 </document>
