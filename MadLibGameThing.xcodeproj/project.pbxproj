@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC07D7501CEA3B7700B3F5B7 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC07D74F1CEA3B7700B3F5B7 /* images.jpg */; };
+		DC07D7521CEA3BD800B3F5B7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07D7511CEA3BD800B3F5B7 /* Colors.swift */; };
+		DC07D7541CEA414F00B3F5B7 /* MainMenu2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC07D7531CEA414F00B3F5B7 /* MainMenu2.storyboard */; };
 		DC1C48871CC6A54F009116F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C48861CC6A54F009116F8 /* AppDelegate.swift */; };
 		DC1C48891CC6A54F009116F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C48881CC6A54F009116F8 /* ViewController.swift */; };
 		DC1C488C1CC6A54F009116F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1C488A1CC6A54F009116F8 /* Main.storyboard */; };
@@ -57,6 +60,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC07D74F1CEA3B7700B3F5B7 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		DC07D7511CEA3BD800B3F5B7 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DC07D7531CEA414F00B3F5B7 /* MainMenu2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainMenu2.storyboard; sourceTree = "<group>"; };
 		DC1C48831CC6A54F009116F8 /* MadLibGameThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadLibGameThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1C48861CC6A54F009116F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC1C48881CC6A54F009116F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +147,9 @@
 				DC1C48861CC6A54F009116F8 /* AppDelegate.swift */,
 				DC1C48881CC6A54F009116F8 /* ViewController.swift */,
 				DC1C488A1CC6A54F009116F8 /* Main.storyboard */,
+				DC07D7531CEA414F00B3F5B7 /* MainMenu2.storyboard */,
+				DC07D7511CEA3BD800B3F5B7 /* Colors.swift */,
+				DC07D74F1CEA3B7700B3F5B7 /* images.jpg */,
 				DC97B5721CE4FAD000E41F60 /* MainMenu.storyboard */,
 				DCB8063C1CE2541C00B2DD7F /* LaunchMenu.storyboard */,
 				DC1C48981CC6AD19009116F8 /* MadLibsDictionary.swift */,
@@ -372,12 +381,14 @@
 				DCB8067A1CE25D0D00B2DD7F /* playstore-icon.png in Resources */,
 				DCB8067B1CE25D0D00B2DD7F /* Contents.json in Resources */,
 				DCB806971CE25D0D00B2DD7F /* Icon-44@2x.png in Resources */,
+				DC07D7501CEA3B7700B3F5B7 /* images.jpg in Resources */,
 				DCB8067F1CE25D0D00B2DD7F /* Icon-60@2x.png in Resources */,
 				DCB806921CE25D0D00B2DD7F /* Icon-24@2x.png in Resources */,
 				DCB806841CE25D0D00B2DD7F /* Icon-Small.png in Resources */,
 				DCB806851CE25D0D00B2DD7F /* Icon-Small@2x.png in Resources */,
 				DCB806751CE25D0D00B2DD7F /* ic_launcher.png in Resources */,
 				DCB8067D1CE25D0D00B2DD7F /* Icon-40@2x.png in Resources */,
+				DC07D7541CEA414F00B3F5B7 /* MainMenu2.storyboard in Resources */,
 				DCB806791CE25D0D00B2DD7F /* ic_launcher.png in Resources */,
 				DCB806981CE25D0D00B2DD7F /* Icon-86@2x.png in Resources */,
 				DCB8067C1CE25D0D00B2DD7F /* Icon-40.png in Resources */,
@@ -399,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC1C48891CC6A54F009116F8 /* ViewController.swift in Sources */,
+				DC07D7521CEA3BD800B3F5B7 /* Colors.swift in Sources */,
 				DC1C48991CC6AD19009116F8 /* MadLibsDictionary.swift in Sources */,
 				DCB806901CE25D0D00B2DD7F /* README.md in Sources */,
 				DC1C48871CC6A54F009116F8 /* AppDelegate.swift in Sources */,

@@ -17,6 +17,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var answerTextBox: UITextField!
    
     
+    @IBOutlet weak var saveButtonColors: UIButton!
     
     @IBAction func cancelButton(sender: AnyObject) {
         
@@ -30,7 +31,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
     var x = 1
     
     @IBAction func saveButton(sender: AnyObject) {
-        madLibInstance.answers.append(answerTextBox.text!)
+        let randomColor = Colors().getRandomColor()
+        view.backgroundColor = randomColor
+        saveButtonColors.tintColor = randomColor
+       
+        
+    
+        
+        
+    madLibInstance.answers.append(answerTextBox.text!)
         self.reloadInputViews()
         
         

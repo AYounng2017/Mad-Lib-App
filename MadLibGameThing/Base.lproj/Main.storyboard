@@ -25,6 +25,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEN-E1-fNj">
                                 <rect key="frame" x="252" y="430" width="49" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
                                     <action selector="saveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gO7-f7-weW"/>
@@ -32,6 +33,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgu-ck-xJC">
                                 <rect key="frame" x="12" y="430" width="48" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Cancel"/>
                                 <connections>
                                     <action selector="cancelButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xSO-5U-qKG"/>
@@ -70,6 +72,7 @@
                     <connections>
                         <outlet property="answerTextBox" destination="Kvq-ZH-JMR" id="Fmx-lf-xJ8"/>
                         <outlet property="questionsLabel" destination="eYl-PB-y6T" id="73u-nT-DQf"/>
+                        <outlet property="saveButtonColors" destination="mEN-E1-fNj" id="cGw-UX-VgS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
