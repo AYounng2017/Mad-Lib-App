@@ -34,7 +34,7 @@ struct MadLibDictionary {
                    
                    "Name yet another body part",    //9
                    
-                   "Can you think of another body part to type?",   //10
+                   "Name yet another body part",   //10
                    
                    "Name a place",  //11
                    
